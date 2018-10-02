@@ -2,19 +2,19 @@
 
 Este es un tutorial elaborado por [PythonWorkshop](https://github.com/PythonWorkshop/), basado en el trabajo de múltiples colaboradores, y traducido parcialmente al español por Sergio Morales (@fireblend), Zucethy Obando (@Zucethy) y Michael Abarca (@michaelaba10).
 
-## What's in this tutorial
+## Contenidos del Tutorial
 
-The notebooks are a modular introduction to machine learning in python using `scikit-learn` with examples and tips.
+Estos Jupyter notebooks representan una introducción modular al aprendizaje de máquina en Python usando `scikit-learn`, con ejemplos y consejos.
 
-The material is in jupyter notebook format and was designed to be compatible with Python >= 2.6 or >= 3.3.  To use these notebooks interatively (intended use), you will need a jupyter/ipython notebook install (see below).
+El materíal se encuentra diseñado para ser compatible con Python >= 2.6 o >= 3.3. Para usar estos archivos de manera interactiva (su uso esperado), es necesario haber instalado Jupyter/iPython previamente (ver abajo).
 
-Also, included is a brief introductory guide to jupyter notebooks in Notebook_anatomy notebook.  If you are unfamiliar with jupyter/ipython notebooks, please take some time to look at this file.
+Además, se puede encontrar una guía rapida al uso de Jupyter notebooks en el archivo de anatomia_notebook. Si no se es familiar con jupyter/ipython, es recomendable revisar este archivo.
 
-## Installation Notes
+## Notas de Instalación
 
-> For a quick deployment, simply click the `launch binder` link at the bottom of this page.  However, we recommend a local install for more customizable setups, flexibility and possiblities.
+> Para emplear el tutorial de manera rapido, se puede hacer click sobre el enlace de "iniciar binder" abajo. Sin embargo, recomendamos una instalación local para un uso más comodo de Jupyter.
 
-### Setting up a development environment
+### Configurando un ambiente de desarrollo local
 
 > Note: the requirements.txt file above is a snapshot of the latest `pip` installed packages from a successful ML ecosystem.  `conda` should install the best dependencies for the `scikit-learn` used and may have different versions.
 
