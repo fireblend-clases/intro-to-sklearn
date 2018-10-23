@@ -52,49 +52,46 @@ pip install auxlib conda
 ### Instalando jupyter notebook localmente
 
 La forma sencilla de instalar [jupyter notebook](http://jupyter.org/) es a través de `conda install`
+
 * Ejecute `conda install jupyter` desde la interfaz de comandos. Linux/OSX puede requerir permisos de `sudo`.
 * Navegue en el directorio contenido en este repositorio, y ejecute `jupyter notebook`. <b>Esto inicializará el servicio de notebook</b> localmente para accesar los notebooks desde el navegador. Puede profundizar desde la página de inicio al notebook de interés.
 
-The easiest way to install [jupyter notebook](http://jupyter.org/) is via `conda install`
-* Run `conda install jupyter` from your terminal. Linux/OSX may require `sudo` permissions.
-* Navigate to the directory containing this repository, and execute `jupyter notebook`. <b>This will start a notebook service</b> locally for accessing notebooks in your browser. Drill down on the home page to your notebook of interest.
+Para un primer acercamiento vaya a `Notebook_anatomy.ipynb` en este repositorio. La forma corta es: ejecute una celda presionando <b>Shift-Enter</b>.  Hay muchos otros atajos de teclado en el notebook.
 
-For a notebook primer go to `Notebook_anatomy.ipynb` on this repo.  The very short story is: to execute a cell just hit <b>Shift-Enter</b>.  There are many more shortcuts in primer.
+## Instalando paquetes de python
 
-## Installing python packages
+Este tutorial requiere los siguientes paquetes:
 
-This tutorial requires the following packages:
-
- * numpy version 1.5 or later: http://www.numpy.org/
- * scipy version 0.10 or later: http://www.scipy.org/
+ * numpy versión 1.5 o posterior: http://www.numpy.org/
+ * scipy versión 0.10 o posterior : http://www.scipy.org/
  * pandas http://pandas.pydata.org/
- * matplotlib version 1.3 or later: http://matplotlib.org/
- * scikit-learn version 0.14 or later: http://scikit-learn.org
- * jupyter http://jupyter.readthedocs.org/en/latest/install.html
+ * matplotlib versión 1.3 o posterior: http://matplotlib.org/
+ * scikit-learn versión 0.14 o posterior: http://scikit-learn.org
+ * jupyter http://jupyter.readthedocs.org/en/latest/install.html 
 
-You can use your development environment of choice, but if you used `conda` as described above, simply run:
+Puede usar el ambiente de desarrollo de su elección, pero si utiliza `conda` como se describe arriba, simplemente ejecute:
 ```
 	$ conda install numpy scipy matplotlib scikit-learn jupyter
 ```
 
-We have also provided a requirements.txt file above for use with pip.
+También le brindamos el archivo requirementes.txt para usar con pip.
 
-## Other install options
+## Otras opciones de instalación
 
-There are many different ways to install python and the package ecosystem for machine learning.  They are not all going to be covered here, but essentially you have the following choices:
+Hay muchas formas de instalar python y el ecosistema de paquetes para machine learning. No van a ser totalmente cubierto aquí, pero esencialmente tiene las siguientes opciones:
 
-1. anaconda/miniconda aka conda (shown above)
-2. download python and pip install packages
-3. use a docker image ([this](https://hub.docker.com/r/wi3o/skflow-jupyternb/) is one for jupyter+sklearn+skflow+tensorflow)
-4. [Google cloud platform](https://cloud.google.com/) has a jupyter notebook service called Datalab (quickstart [here](https://cloud.google.com/datalab/docs/quickstart)).  It has tensorflow pre-installed (needed for next tutorial).
-5. Click the Binder link at the bottom of this page to deploy a notebook setup.
+1. anaconda/miniconda también conocido como conda (se vió arriba)
+2. descargue python y pip para instalar paquetes
+3. use una imagen de docker  ([esta](https://hub.docker.com/r/wi3o/skflow-jupyternb/) configurada para jupyter+sklearn+skflow+tensorflow)
+4. [Google cloud platform](https://cloud.google.com/) tiene un servicio de jupyter notebook llamado Datalab (inicio rápido [aquí](https://cloud.google.com/datalab/docs/quickstart)).  Tiene tensorflow pre-instalado (necesario para el siguiente tutorial).
+5. Dé click en el enlace Binder al inicio de esta página para desplegar la configuración del notebook.
 
-Or a combination of the above.
+O cualquier combinación de las anteriores.
 
-A quick tip if you are installing in a non-conda way with `pip` and are on Windows, many of the data analysis packages are tricky (compiled dependencies) to install.  A nice "unofficial" repository for binaries of packages like `numpy` and a myriad of others was created and maintained by Christoph Gohlke.  This site is [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/).
+Una recomendación rápida es está instalando de una forma non-conda con `pip` y está en Windows, muchos de los paquetes de análisis de datos son engorrosos de instalar (compilar las dependencias). Un buen repositorio "no oficial" como `numpy`y numerosos otros han sido creados y mantenidos por Christoph Gohlke.  El sitio es [este](http://www.lfd.uci.edu/~gohlke/pythonlibs/).
 
-## What's next
+## Que sigue
 
-The next tutorial in this workshop is on `tensorflow` and the installation instructions are in this [README](https://github.com/PythonWorkshop/intro-to-tensorflow/blob/master/README.md)
+El siguiente tutorial en este taller es de `tensorflow` y las instrucciones de instalación son estas  [README](https://github.com/PythonWorkshop/intro-to-tensorflow/blob/master/README.md)
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/PythonWorkshop/intro-to-sklearn)
